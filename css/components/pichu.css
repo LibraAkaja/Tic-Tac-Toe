@@ -1,0 +1,6 @@
+#pichu{
+    position: absolute;
+    transform: scale(0.13) rotateY(180deg);
+    top: -50%;
+    left: -1.5%;
+}

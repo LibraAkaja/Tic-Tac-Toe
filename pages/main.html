@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <!-- Linking for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Orbitron&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <!-- Linking css stylesheets -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components/card.css">
+    <link rel="stylesheet" href="../css/components/gameName.css">
+    <link rel="stylesheet" href="../css/components/pikachu.css">
+    <link rel="stylesheet" href="../css/components/playButton.css">
+    <link rel="stylesheet" href="../css/components/soundButton.css">
+    <link rel="stylesheet" href="../css/components/developer.css">
+    <link rel="stylesheet" href="../css/components/pichu.css">
+</head>
+<body>
+    <!-- Loading Audio files -->
+    <audio id="bgm" src="../assets/sounds/bgm.MP3" preload="auto" loop></audio>
+    <audio id="P1" src="../assets/sounds/pika1.mp3" preload="auto"></audio>
+    <!-- <audio id="P2" src="../assets/sounds/pika2.mp3" preload="auto"></audio>
+    <audio id="P3" src="../assets/sounds/pika3.mp3" preload="auto"></audio>
+    <audio id="P4" src="../assets/sounds/pika4.mp3" preload="auto"></audio> -->
+    <audio id="p1" src="../assets/sounds/pichu1.MP3" preload="auto"></audio>
+    <!-- <audio id="p2" src="../assets/sounds/pichu2.MP3" preload="auto"></audio> -->
+    <audio id="oS1" src="../assets/sounds/optionS.MP3" preload="auto"></audio>
+    <audio id="oS2" src="../assets/sounds/optionS2.mp3" preload="auto"></audio>
+    <!-- Main Box -->
+    <div class="card">
+        <div id="gameName">TIC TAC TOE</div>
+        <img id="pikachu" src="../assets/images/Pikachu-wbg.png">
+        <img id="playB" src="../assets/images/pikachuDI.svg"><br>
+        <img id="settings" src="../assets/images/settings2.svg">
+        <div class="developer" id="developer">Developed By Biraj Adhikari</div>
+        <img id="pichu" src="../assets/images/Pichu.png">
+        <div id="gs">
+            Game Sounds
+            <br>
+            <div id="soundBar"></div>
+        </div>
+    </div>
+    <!-- JavaScripts -->
+    <script src="../scripts/sounds.js"></script>
+    <script type="module" src="../scripts/main.js"></script>
+</body>
+</html>

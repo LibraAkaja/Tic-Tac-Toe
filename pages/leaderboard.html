@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Linking for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Orbitron&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <!-- Linking css stylesheets -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components/card.css">
+    <link rel="stylesheet" href="../css/components/gameName.css">
+    <link rel="stylesheet" href="../css/components/pikachu.css">
+    <link rel="stylesheet" href="../css/components/developer.css">
+    <link rel="stylesheet" href="../css/components/pichu.css">
+    <link rel="stylesheet" href="../css/pages/leaderboard.css">
+</head>
+<body>
+    <!-- Loading Audio Files -->
+    <audio id="bgm" src="../assets/sounds/Win.mp3" preload="auto"></audio> 
+    <audio id="oS1" src="../assets/sounds/optionS.MP3" preload="auto"></audio>
+    <audio id="oS2" src="../assets/sounds/optionS2.mp3" preload="auto"></audio>
+    <!-- Main Card/Leaderboard -->
+    <div class="card">
+        <div id="gameName">TIC &nbsp;TAC&nbsp; TOE</div>
+        <img id="pikachu" src="../assets/images/Pikachu-wbg.png">
+        <div id="gameOver">GAME&nbsp; OVER</div>
+        <div id="gameStatus"></div>
+        <div id="playAgain">Play Again</div>
+        <div id="mainMenu">Main Menu</div>
+        <div class="developer" id="developer">Developed By Biraj Adhikari</div>
+        <img id="pichu" src="../assets/images/Pichu.png">
+    </div>
+    <script src="../scripts/leaderboard.js" type="module"></script>
+</body>
+</html>

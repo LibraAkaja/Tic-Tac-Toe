@@ -1,0 +1,13 @@
+#gameName{
+    height: 10%;
+    width: 9ch;
+    position: relative;
+    top: 0.5%;
+    left: 11%;
+    color: rgb(108, 52, 137);
+}
+
+#gameName:hover{
+    transform: scale(1.10);
+    transition: transform 0.25s ease;
+}

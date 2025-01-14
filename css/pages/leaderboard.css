@@ -1,0 +1,109 @@
+.card{
+    background: url(../../assets/images/Lpg.jpg) center center;
+    background-size: 1000px;
+    font-size: 200%;
+}
+
+.card::before,.card::after{
+    background: conic-gradient(
+        from var(--gradient-angle),
+        blue,
+        indigo,
+        rgb(148, 48, 163),
+        rgb(234, 60, 184),
+        rgb(233, 84, 84),
+        rgb(234, 60, 184),
+        rgb(148, 48, 163),
+        indigo,
+        blue
+    );
+}
+
+#gameName{
+    left: 0%;
+    font-size: 150%;
+    color: rgb(214, 0, 0);
+    width: 12ch;
+    top: 2%;
+}
+
+#gameOver{
+    position: relative;
+    top: -70%;
+    font-weight: 900;
+    font-size: 125%;
+    color: rgb(180, 0, 0);
+}
+
+#gameOver:hover{
+    transform: scale(1.10);
+    transition: transform 0.25s ease;
+}
+
+#gameStatus{
+    position: relative;
+    height: 10%;
+    width: 10ch;
+    left: 22%;
+    top: -63%;
+    color: yellowgreen;
+    font-weight: 500;
+    background: rgba(74, 74, 74, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}
+
+#gameStatus:hover{
+    transform: scale(1.15);
+    transition: transform 0.25s ease;
+}
+
+#playAgain{
+    height: 10%;
+    width: 8ch;
+    border: 2px solid grey;
+    border-radius: 50px;
+    position: relative;
+    top: -50%;
+    left: 27%;
+    font-weight: 500;
+    background: rgba(74, 74, 74, 0.25);
+    backdrop-filter: blur(1px);
+    color: green;
+    transform: scale(0.9);
+}
+
+#playAgain:hover{
+    transform: scale(1);
+    color: rgb(147, 192, 57);
+    cursor: pointer;
+    transition: transform 0.25s ease;
+}
+
+#mainMenu{
+    height: 10%;
+    width: 8ch;
+    border: 2px solid grey;
+    border-radius: 50px;
+    position: relative;
+    top: -48%;
+    left: 27%;
+    font-weight: 500;
+    background: rgba(74, 74, 74, 0.25);
+    backdrop-filter: blur(2px);
+    color: silver;
+    transform: scale(0.9);
+}
+
+#mainMenu:hover{
+    transform: scale(1);
+    color: rgb(147, 192, 57);
+    cursor: pointer;
+    transition: transform 0.25s ease;
+}
+
+.developer{
+    top: -45%;
+    color: crimson;
+    font-weight: 400;
+}

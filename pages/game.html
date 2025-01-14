@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <!-- Linking for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Orbitron&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <!-- Linking css stylesheets -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components/card.css">
+    <link rel="stylesheet" href="../css/components/gameName.css">
+    <link rel="stylesheet" href="../css/components/pikachu.css">
+    <link rel="stylesheet" href="../css/components/soundButton.css">
+    <link rel="stylesheet" href="../css/components/developer.css">
+    <link rel="stylesheet" href="../css/components/pichu.css">
+    <link rel="stylesheet" href="../css/pages/game.css">
+</head>
+<body>
+    <!-- Loading audio files -->
+    <audio id="bgm" src="../assets/sounds/DuringGame.mp3" preload="auto" loop></audio>
+    <audio id="oS1" src="../assets/sounds/optionS.MP3" preload="auto"></audio>
+    <audio id="oS2" src="../assets/sounds/optionS2.mp3" preload="auto"></audio>
+    <!-- Main Game Box -->
+    <div class="card">
+        <div id="gameName">TIC TAC TOE</div>
+        <img id="pikachu" src="../assets/images/Pikachu-wbg.png">
+        <img id="settings" src="../assets/images/settings2.svg">
+        <!-- Play Area -->
+        <div class="crossOcircle" id="b1"><img id="i1"></div>
+        <div class="crossOcircle" id="b2"><img id="i2"></div>
+        <div class="crossOcircle" id="b3"><img id="i3"></div>
+        <div class="crossOcircle" id="b4"><img id="i4"></div>
+        <div class="crossOcircle" id="b5"><img id="i5"></div>
+        <div class="crossOcircle" id="b6"><img id="i6"></div>
+        <div class="crossOcircle" id="b7"><img id="i7"></div>
+        <div class="crossOcircle" id="b8"><img id="i8"></div>
+        <div class="crossOcircle" id="b9"><img id="i9"></div>
+        <div class="developer" id="developer">Developed By Biraj Adhikari</div>
+        
+        <img id="pichu" src="../assets/images/Pichu.png">
+        <div id="gs">
+            Game Sounds
+            <br>
+            <div id="soundBar"></div>
+        </div>
+    </div>
+    <!-- JavaScripts -->
+    <script src="../scripts/sounds.js"></script>
+    <script type="module" src="../scripts/game.js"></script>
+</body>
+</html>

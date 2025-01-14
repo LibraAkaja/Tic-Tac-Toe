@@ -1,0 +1,8 @@
+#pikachu{
+    position: relative;
+    top: -55%;
+    right: 52%;
+    z-index: -1;
+    transform: scale(0.75) rotate(-30deg);
+    opacity: 1;
+}

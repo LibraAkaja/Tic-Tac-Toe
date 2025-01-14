@@ -1,0 +1,45 @@
+@property --gradient-angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes rotation{
+    0% {--gradient-angle: 0deg;}
+    100% {--gradient-angle: 360deg;}
+}
+
+.card{
+    height: 60vh;
+    aspect-ratio: 1.25/1.5;
+    background: url(../../assets/images/TTT.jpg) center center;
+    background-size: 450px;
+    border-radius: 0.5rem;
+    position: relative;
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    color: rgb(125, 24, 44);
+    cursor: default;
+}
+
+.card::before,.card::after{
+    content: "";
+    position: absolute;
+    inset: -0.5rem;
+    z-index: -1;
+    background: conic-gradient(
+        from var(--gradient-angle),
+        rgb(29, 161, 29),
+        rgb(48, 118, 90),
+        rgb(41, 97, 111),
+        rgb(48, 118, 90),
+        rgb(29, 161, 29)
+    );
+    border-radius: inherit;
+    animation: rotation 10s linear infinite;
+}
+
+.card::after{
+    filter: blur(3.5rem);
+}
