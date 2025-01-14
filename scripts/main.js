@@ -20,7 +20,7 @@ import { addSettingBtnEvent, addGameSound, stopGameSound, addSoundAnimation, sto
 
 const elementsForSound = ["settings","gameName","developer","playB","pichu","pikachu"];
 const soundIDs = ["bgm","oS1","oS2","oS2","oS1","p1","P1"];
-const srcs = ["../assets/sounds/bgm.mp3","../assets/sounds/optionS.MP3","../assets/sounds/optionS2.mp3","../assets/sounds/optionS2.mp3","../assets/sounds/optionS.MP3","../assets/sounds/pichu1.MP3","../assets/sounds/pika1.mp3"];
+const srcs = ["assets/sounds/bgm.mp3","assets/sounds/optionS.MP3","assets/sounds/optionS2.mp3","assets/sounds/optionS2.mp3","assets/sounds/optionS.MP3","assets/sounds/pichu1.MP3","assets/sounds/pika1.mp3"];
 
 initCheckSstatus(gsb,elementsForSound,soundIDs,srcs);       // Plays sound automatically if was previously enabled
 
