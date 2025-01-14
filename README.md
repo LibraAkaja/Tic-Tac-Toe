@@ -12,11 +12,11 @@ It demonstrates basics of web development with a user friendly interface.
 
 ## Folder Structure
 
-Tic-Tac-Toe/
-├── assets/		# Contains images and sounds for game<br>
-├── css/		   # Contains all css files<br>
-├── pages/		# Contains all html files<br>
-├── scripts/	# Contains all js files<br>
+Tic-Tac-Toe/ <br>
+├── assets/       # Contains images and sounds for game<br>
+├── css/          # Contains all css files<br>
+├── pages/        # Contains all html files<br>
+├── scripts/      # Contains all js files<br>
 ├── index.html <br>
 ├── README.md  <br>
 
