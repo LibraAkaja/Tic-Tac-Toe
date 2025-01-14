@@ -24,7 +24,7 @@ playA.addEventListener("click",() => {
     location.href = "../pages/game.html";
 });
 mMenu.addEventListener("click", ()=>{
-    location.href = "../pages/main.html";
+    location.href = "../index.html";
 });
 
 const elementsForSound = ["playAgain","mainMenu","gameStatus"];

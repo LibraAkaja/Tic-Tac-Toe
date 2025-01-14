@@ -14,9 +14,10 @@ It demonstrates basics of web development with a user friendly interface.
 
 Tic-Tac-Toe/
 ├── assets/		# Contains images and sounds for game
-├── css/		# Contains all css files
+├── css/		   # Contains all css files
 ├── pages/		# Contains all html files
 ├── scripts/	# Contains all js files
+├── index.html 
 ├── README.md
 
 ## How to Run
@@ -33,7 +34,7 @@ Tic-Tac-Toe/
    ```bash
    cd pages
 
-4. Open the main.html file in your browser.
+4. Open the index.html file in your browser.
 
 ## Technologies Used
 
