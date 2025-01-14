@@ -26,9 +26,11 @@ Tic-Tac-Toe/
    git clone https://github.com/LibraAkaja/Tic-Tac-Toe.git
 
 2. Navigate to the project folder
+   ```bash
    cd Tic-Tac-Toe
 
 3. Navigate to pages folder
+   ```bash
    cd pages
 
 4. Open the main.html file in your browser.
