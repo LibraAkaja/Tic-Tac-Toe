@@ -13,12 +13,12 @@ It demonstrates basics of web development with a user friendly interface.
 ## Folder Structure
 
 Tic-Tac-Toe/
-├── assets/		# Contains images and sounds for game
-├── css/		   # Contains all css files
-├── pages/		# Contains all html files
-├── scripts/	# Contains all js files
-├── index.html 
-├── README.md
+├── assets/		# Contains images and sounds for game<br>
+├── css/		   # Contains all css files<br>
+├── pages/		# Contains all html files<br>
+├── scripts/	# Contains all js files<br>
+├── index.html <br>
+├── README.md  <br>
 
 ## How to Run
 
@@ -30,11 +30,7 @@ Tic-Tac-Toe/
    ```bash
    cd Tic-Tac-Toe
 
-3. Navigate to pages folder
-   ```bash
-   cd pages
-
-4. Open the index.html file in your browser.
+3. Open the index.html file in your browser.
 
 ## Technologies Used
 
