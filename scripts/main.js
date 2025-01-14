@@ -1,7 +1,7 @@
 // Setting what happens when user clicks the Pikachu play button
 const playBtn = document.querySelector("#playB");
 playBtn.addEventListener("click", function() {
-    location.href = "game.html";
+    location.href = "pages/game.html";
 });
 
 //Buttons from the html 
