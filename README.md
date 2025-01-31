@@ -43,6 +43,8 @@ Tic-Tac-Toe/ <br>
 
 ## Screenshots
 <img src="screenshot1.png" width="600">
+<img src="screenshot2.png" width="600">
+<img src="screenshot3.png" width="600">
 
 ## Acknowledgements
 - Icons (play, settings, cross, circle) by [Icon Finder](https://www.iconfinder.com/)
