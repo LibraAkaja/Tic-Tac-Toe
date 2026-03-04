@@ -9,21 +9,28 @@
     100% {--gradient-angle: 360deg;}
 }
 
-.card{
-    height: 60vh;
-    aspect-ratio: 1.25/1.5;
+#card{
+    width: 290px;
+    height: 290px;
     background: url(../../assets/images/TTT.jpg) center center;
     background-size: 450px;
     border-radius: 0.5rem;
     position: relative;
-    color: white;
     font-size: 300%;
     text-align: center;
     color: rgb(125, 24, 44);
     cursor: default;
-}
+    margin-top: 200px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: -100px;
+} 
 
-.card::before,.card::after{
+#card::before,#card::after{
     content: "";
     position: absolute;
     inset: -0.5rem;
@@ -40,6 +47,79 @@
     animation: rotation 10s linear infinite;
 }
 
-.card::after{
+#card::after{
     filter: blur(3.5rem);
 }
+
+#pikachu{
+    position: absolute;
+    top: -90px;
+    left: -31px;
+    z-index: 0;
+}
+
+#pichu{
+    position: absolute;
+    top: 284px;
+    right: 8px;
+    z-index: 1;
+    transform: rotateZ(-110deg);
+}
+
+#playB, #settings{
+    position: absolute;
+    cursor: pointer;
+}
+
+#playB{
+    bottom: 15px;
+}
+
+#playB:hover{
+    transform: scale(1.1);
+    transition: all 0.25s ease;
+}
+
+#settings{
+    top: 15px;
+    right: 15px;
+}
+
+#settings:hover{
+    transform: scale(1.03);
+    transition: all 0.25s ease;
+}
+
+#gs{
+    width: 80%;
+    height: 75px;
+    border: 2px solid lime;
+    border-left: 2px solid rgb(166, 255, 0);
+    border-right: 2px solid rgb(166, 255, 0);
+    background-color: rgba(255, 192, 203, 0.25);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#gs p{
+    font-size: large;
+    background: linear-gradient(to top, lime, yellow);
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 1px;
+}
+
+#soundBar{
+    width: 31px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid lemonchiffon;
+    background-color: rgba(53, 52, 58, 0.5);
+    cursor: pointer !important;
+}
+
+

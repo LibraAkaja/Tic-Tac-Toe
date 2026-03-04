@@ -21,15 +21,17 @@ else if(gStats == '2'){
 const playA = document.getElementById("playAgain");
 const mMenu = document.getElementById("mainMenu");
 playA.addEventListener("click",() => {
+    localStorage.removeItem("gameStat");     // Removing the game status for the next game, so that it doesn't interfere with the next game's status
     location.href = "../pages/game.html";
 });
 mMenu.addEventListener("click", ()=>{
+    localStorage.removeItem("gameStat");
     location.href = "../index.html";
 });
 
-const elementsForSound = ["playAgain","mainMenu","gameStatus"];
-const soundIDs = ["bgm","oS1","oS1","oS2"];
-const srcs = ["../assets/sounds/Win.mp3","../assets/sounds/optionS.MP3","../assets/sounds/optionS.MP3","../assets/sounds/optionS2.MP3"];
+const elementsForSound = ["playAgain","mainMenu"];
+const soundIDs = ["bgm","oS1","oS1"];
+const srcs = ["../assets/sounds/Win.mp3","../assets/sounds/optionS.MP3","../assets/sounds/optionS.MP3"];
 
 // Plays sound automatically if was previously enabled
 

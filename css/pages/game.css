@@ -1,10 +1,10 @@
-.card{
+#card{
     background: url(../../assets/images/TTTPG.jpg) center center;
     background-size: 420px;
     font-size: 200%;
 }
 
-.card::before,.card::after{
+#card::before,#card::after{
     background: conic-gradient(
         from var(--gradient-angle),
         red,
@@ -16,71 +16,34 @@
     );
 }
 
-#gameName{
-    color: rgb(160, 22, 50);
-    font-size: 125%;
-    left: 18%;
+h1{
+    background: linear-gradient(to bottom, orange, rgb(56, 56, 254));
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
-#settings{
-    top: -90%;
+h1:hover{
+    background: linear-gradient(to bottom,black, orange, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
-.developer{
-    top: -202%;
+.alucrossboxes{
+    width: 290px;
+    height: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4px 8px;
 }
 
 .crossOcircle{
-    height: 20%;
+    height: 80px;
     aspect-ratio: 1;
     border: 2px solid rgb(45, 45, 45);
-    position: relative;
-    top: -86%;
-    left: 19.5%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-}
-
-#b2{
-    top: -84.5%;
-}
-
-#b3{
-    top: -83%;
-}
-
-#b4{
-    top: -148%;
-    left: 40.5%;
-}
-
-#b5{
-    top: -147%;
-    left: 40.5%;
-}
-
-#b6{
-    top: -145%;
-    left: 40.5%;    
-}
-
-#b7{
-    top: -210.25%;
-    left: 61%;
-}
-
-#b8{
-    top: -209%;
-    left: 61%;
-}
-
-#b9{
-    top: -207.5%;
-    left: 61%;
-}
-
-#gs{
-    top: -295%;
 }

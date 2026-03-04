@@ -109,9 +109,9 @@ import { addSettingBtnEvent, addGameSound, stopGameSound, addSoundAnimation, sto
 const gsb = document.getElementById("soundBar");
 const gs = document.getElementById("gs");
 
-const elementsForSound = ["settings","gameName","developer"];
-const soundIDs = ["bgm","oS1","oS2","oS2"];
-const srcses = ["../assets/sounds/DuringGame.mp3","../assets/sounds/optionS.MP3","../assets/sounds/optionS2.mp3","../assets/sounds/optionS2.mp3"];
+const elementsForSound = ["settings","developer"];
+const soundIDs = ["bgm","oS1","oS2"];
+const srcses = ["../assets/sounds/DuringGame.mp3","../assets/sounds/optionS.MP3","../assets/sounds/optionS2.mp3"];
 
 initCheckSstatus(gsb,elementsForSound,soundIDs,srcs);       // Plays sound automatically if was previously enabled
 

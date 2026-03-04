@@ -52,7 +52,7 @@ export function stopGameSound(soundIDs){
 
 // Animation when sound is on
 export function addSoundAnimation(gsb){
-    gsb.style.backgroundColor = "rgba(4, 255, 0, 0.25)";
+    gsb.style.backgroundColor = "rgba(4, 255, 0, 0.5)";
     gsb.style.transition = "background 0.5s linear";
 }
 

@@ -1,3 +1,14 @@
+@property --gradient-angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes rotation{
+    0% {--gradient-angle: 0deg;}
+    100% {--gradient-angle: 360deg;}
+}
+
 *{
     padding: 0%;
     margin: 0%;
@@ -7,7 +18,41 @@
 
 body{
     background: rgb(39, 39, 39);
-    display: grid;
-    place-content: center;
     min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    place-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+h1{
+    background: linear-gradient(to top, black, limegreen, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    cursor: default;
+    z-index: 100;
+    position: relative;
+    top: -26px;
+}
+
+h1:hover{
+    transform: translateY(-4px);
+    background: linear-gradient(to top, limegreen, yellow);
+    background-clip: text;
+    transition: all 0.25s ease-in-out;
+}
+
+.container{
+    width: 290px;
+    height: 290px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    overflow: visible;
+    position: relative;
 }

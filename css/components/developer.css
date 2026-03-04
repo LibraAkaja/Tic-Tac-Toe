@@ -1,18 +1,28 @@
 .developer{
-    font-size: 20px;
-    position: relative;
-    top: -35%;
-    left: 15%;
-    width: 70%;
+    width: fit-content;
+    padding: 8px;
     border: 2px solid rgb(60, 60, 60);
     border-radius: 20px;
     padding-bottom: 3px;
-    color: indigo;
+    background: linear-gradient(to top, #222222, grey, #dddddd);
+    background-clip: text;
+    color: transparent;
+    will-change: auto;
+    cursor: default;
+    position: relative;
+    top: 25px;
 }
 
 .developer:hover{
-    transform: scale(1.10);
-    transition: transform 0.25s ease;
-    color: red ;
-    font-weight: 400;
+    transform: translateY(-4px) scale(1.05);
+    background: linear-gradient(to top,#444444, grey, #999999);
+    background-clip: text;
+    color: transparent;
+    transition: all 0.25s ease;
+}
+
+@media only screen and (min-width: 320px){
+    .developer{
+        z-index: 1;
+    }
 }
